@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutY="-1.0" prefHeight="60.0" prefWidth="600.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="RIGHT" layoutY="7.0" prefHeight="47.0" prefWidth="145.0" text="互联网酒店预订系统">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <SplitPane dividerPositions="0.24414715719063546" layoutX="-2.0" layoutY="58.0" prefHeight="326.0" prefWidth="606.0" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="-4.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="292.0" prefWidth="32.0">
+               <children>
+                  <Group>
+                     <children>
+                        <ToggleButton layoutX="25.0" layoutY="269.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="95.0" text="客房信息" />
+                        <ToggleButton layoutX="25.0" layoutY="172.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="95.0" text="酒店促销策略" />
+                        <ToggleButton layoutX="25.0" layoutY="28.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="95.0" text="酒店订单" />
+                        <ToggleButton layoutX="25.0" layoutY="124.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="95.0" text="剩余客房信息" />
+                        <ToggleButton layoutX="25.0" layoutY="222.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="95.0" text="酒店信息" />
+                        <ToggleButton layoutX="25.0" layoutY="76.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="95.0" text="线下处理" />
+                     </children>
+                  </Group>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="325.0" prefWidth="416.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="18.0" layoutY="18.0" prefHeight="289.0" prefWidth="419.0" text="欢迎登陆互联网酒店预订系统">
+                     <font>
+                        <Font size="29.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Label layoutX="8.0" layoutY="384.0" prefHeight="17.0" prefWidth="600.0" text="状态栏：" />
+   </children>
+</AnchorPane>
