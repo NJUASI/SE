@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0">
+         <children>
+            <Separator layoutX="161.0" layoutY="125.0" orientation="VERTICAL" prefHeight="200.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="93.0" AnchorPane.rightAnchor="497.0" AnchorPane.topAnchor="1.0" />
+            <Separator layoutX="41.0" layoutY="435.0" prefWidth="200.0" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="434.0" />
+            <Label layoutX="2.0" layoutY="435.0" text="状态栏" />
+            <ImageView fitHeight="79.0" fitWidth="97.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="371.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="504.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@../图片.PNG" />
+               </image>
+            </ImageView>
+            <Label layoutX="26.0" layoutY="85.0" text="管理员" AnchorPane.bottomAnchor="350.0" AnchorPane.leftAnchor="26.0" AnchorPane.rightAnchor="534.0" AnchorPane.topAnchor="85.0" />
+            <VBox layoutX="3.0" layoutY="134.0" prefHeight="200.0" prefWidth="100.0" spacing="40.0" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="499.0" AnchorPane.topAnchor="134.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="客户" />
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="酒店工作人员" />
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="网站营销人员" />
+                  <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="酒店信息" />
+               </children>
+            </VBox>
+            <Label layoutX="272.0" layoutY="16.0" text="用户查询" AnchorPane.bottomAnchor="394.0" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="236.0" AnchorPane.topAnchor="16.0">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <TextField layoutX="156.0" layoutY="57.0" prefHeight="23.0" prefWidth="351.0" />
+            <Button layoutX="523.0" layoutY="57.0" mnemonicParsing="false" text="查询" />
+            <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="157.0" layoutY="57.0">
+               <image>
+                  <Image url="@../图片2.PNG" />
+               </image>
+            </ImageView>
+            <Pane layoutX="97.0" layoutY="118.0" prefHeight="316.0" prefWidth="503.0">
+               <children>
+                  <ScrollBar layoutX="489.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="316.0" prefWidth="14.0" />
+                  <Pane prefHeight="153.0" prefWidth="489.0">
+                     <children>
+                        <Separator layoutX="1.0" layoutY="154.0" prefHeight="3.0" prefWidth="489.0" />
+                        <Label layoutX="14.0" layoutY="14.0" text="姓名：张三" />
+                        <Label layoutX="14.0" layoutY="49.0" text="编号：1234" />
+                        <Label layoutX="14.0" layoutY="85.0" text="密码：123456" />
+                        <Button layoutX="399.0" layoutY="114.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="88.0" text="编辑" />
+                        <Label layoutX="14.0" layoutY="118.0" text="所属酒店：金鹰酒店" />
+                     </children>
+                  </Pane>
+                  <Pane layoutY="155.0" prefHeight="161.0" prefWidth="489.0">
+                     <children>
+                        <Separator layoutX="3.0" layoutY="160.0" prefHeight="3.0" prefWidth="489.0" />
+                        <Label layoutX="14.0" layoutY="14.0" text="姓名：王二" />
+                        <Label layoutX="14.0" layoutY="52.0" text="编号：1244" />
+                        <Label layoutX="14.0" layoutY="87.0" text="密码：123456" />
+                        <Button layoutX="399.0" layoutY="114.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="88.0" text="编辑" />
+                        <Label layoutX="14.0" layoutY="118.0" text="所属酒店：杏林酒店" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Button layoutX="543.0" layoutY="93.0" mnemonicParsing="false" text="添加" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

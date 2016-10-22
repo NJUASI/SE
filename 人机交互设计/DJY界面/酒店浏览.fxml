@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Separator layoutX="149.0" layoutY="54.0" orientation="VERTICAL" prefHeight="200.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="93.0" AnchorPane.rightAnchor="497.0" AnchorPane.topAnchor="1.0" />
+      <Separator layoutX="67.0" layoutY="432.0" prefWidth="200.0" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="434.0" />
+      <Label layoutY="435.0" text="状态栏" />
+      <Label layoutX="35.0" layoutY="85.0" text="王二" AnchorPane.bottomAnchor="350.0" AnchorPane.leftAnchor="35.0" AnchorPane.rightAnchor="541.0" AnchorPane.topAnchor="85.0" />
+      <ImageView fitHeight="80.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="368.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="500.2075500488281" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../图片.PNG" />
+         </image>
+      </ImageView>
+      <VBox layoutX="-1.0" layoutY="146.0" prefHeight="200.0" prefWidth="100.0" spacing="40.0" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="485.0" AnchorPane.topAnchor="134.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="酒店" />
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="订单" />
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="会员" />
+            <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="60.0" text="信用" />
+         </children>
+      </VBox>
+      <TextField layoutX="154.0" layoutY="78.0" prefHeight="15.0" prefWidth="335.0" />
+      <Button layoutX="499.0" layoutY="78.0" mnemonicParsing="false" text="搜索" />
+      <ImageView fitHeight="21.0" fitWidth="36.0" layoutX="154.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../图片2.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="177.0" layoutY="83.0" text="仙林大道" />
+      <Pane layoutX="97.0" layoutY="153.0" prefHeight="281.0" prefWidth="503.0">
+         <children>
+            <SplitPane dividerPositions="0.5" layoutY="-3.0" prefHeight="140.0" prefWidth="490.0">
+               <items>
+                  <ImageView fitHeight="155.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../图片.PNG" />
+                     </image>
+                  </ImageView>
+                  <Pane prefHeight="132.0" prefWidth="303.0">
+                     <children>
+                        <Label layoutX="5.0" layoutY="3.0" text="南京仙林中心酒店">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="12.0" layoutY="103.0" text="￥198起">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <HBox layoutX="10.0" layoutY="35.0" prefHeight="22.0" prefWidth="75.0" spacing="5.0">
+                           <children>
+                              <Label text="城市：" />
+                              <Label text="南京" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="100.0" layoutY="35.0" prefHeight="21.0" prefWidth="107.0" spacing="5.0">
+                           <children>
+                              <Label text="商圈：" />
+                              <Label text="仙林中心" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="65.0" prefHeight="21.0" prefWidth="75.0">
+                           <children>
+                              <Label text="星级：" />
+                              <Label text="五星" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="100.0" layoutY="65.0" prefHeight="21.0" prefWidth="97.0">
+                           <children>
+                              <Label text="评分：" />
+                              <Label layoutX="100.0" text="4.3分" />
+                           </children>
+                        </HBox>
+                        <Button layoutX="245.0" layoutY="108.0" mnemonicParsing="false" text="立即预定" />
+                        <Button layoutX="245.0" layoutY="80.0" mnemonicParsing="false" text="查看详情" />
+                     </children>
+                  </Pane>
+               </items>
+            </SplitPane>
+            <SplitPane dividerPositions="0.5" layoutY="139.0" prefHeight="140.0" prefWidth="490.0">
+               <items>
+                  <ImageView fitHeight="155.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../图片.PNG" />
+                     </image>
+                  </ImageView>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="5.0" layoutY="3.0" text="南京金鹰酒店">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="12.0" layoutY="103.0" text="￥298起">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <HBox layoutX="10.0" layoutY="35.0" prefHeight="22.0" prefWidth="75.0" spacing="5.0">
+                           <children>
+                              <Label text="城市：" />
+                              <Label text="南京" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="100.0" layoutY="35.0" prefHeight="21.0" prefWidth="107.0" spacing="5.0">
+                           <children>
+                              <Label text="商圈：" />
+                              <Label text="仙林中心" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="10.0" layoutY="65.0" prefHeight="21.0" prefWidth="75.0">
+                           <children>
+                              <Label text="星级：" />
+                              <Label text="五星" />
+                           </children>
+                        </HBox>
+                        <HBox layoutX="100.0" layoutY="65.0" prefHeight="21.0" prefWidth="97.0">
+                           <children>
+                              <Label text="评分：" />
+                              <Label layoutX="100.0" text="4.5分" />
+                           </children>
+                        </HBox>
+                        <Button layoutX="245.0" layoutY="108.0" mnemonicParsing="false" text="立即预定" />
+                        <Button layoutX="245.0" layoutY="80.0" mnemonicParsing="false" text="查看详情" />
+                     </children>
+                  </Pane>
+               </items>
+            </SplitPane>
+            <ScrollBar layoutX="490.0" layoutY="-1.0" orientation="VERTICAL" prefHeight="281.0" prefWidth="14.0" />
+         </children>
+      </Pane>
+      <HBox layoutX="409.0" layoutY="117.0" prefHeight="27.0" prefWidth="188.0" spacing="5.0">
+         <children>
+            <Button mnemonicParsing="false" text="切换城市" />
+            <Button mnemonicParsing="false" text="切换商圈" />
+            <Button mnemonicParsing="false" text="筛选" />
+         </children>
+      </HBox>
+      <Label layoutX="318.0" layoutY="33.0" text="酒店浏览" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="236.0" AnchorPane.topAnchor="22.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
