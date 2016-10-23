@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane layoutY="-1.0" prefHeight="60.0" prefWidth="600.0" />
       <SplitPane dividerPositions="0.24414715719063546" layoutX="-2.0" layoutY="-1.0" prefHeight="385.0" prefWidth="606.0" AnchorPane.leftAnchor="-2.0" AnchorPane.rightAnchor="-4.0">
@@ -39,16 +45,19 @@
                      </font>
                   </Label>
                   <Separator layoutX="-2.0" layoutY="62.0" prefHeight="2.0" prefWidth="463.0" />
-                  <GridPane layoutX="130.0" layoutY="101.0" prefHeight="205.0" prefWidth="205.0">
+                  <GridPane layoutX="62.0" layoutY="89.0" prefHeight="205.0" prefWidth="229.0">
                     <columnConstraints>
                       <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="90.0" />
-                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="112.0" minWidth="10.0" prefWidth="110.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.0" minWidth="10.0" prefWidth="110.0" />
                     </columnConstraints>
                     <rowConstraints>
+                      <RowConstraints />
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
@@ -56,31 +65,35 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Label text="入住人姓名：" />
-                        <Label text="张三" GridPane.columnIndex="1" />
-                        <Label text="入住房型：" GridPane.rowIndex="1" />
-                        <Label text="大床房" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                        <Label text="预计入住人数：" GridPane.rowIndex="3" />
-                        <Label text="1     人" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                        <Label text="入住时间：" GridPane.rowIndex="4" />
-                        <Label prefHeight="15.0" prefWidth="163.0" text="2016-10-2 14:00:00" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                        <Label text="最晚执行时间：" GridPane.rowIndex="6" />
-                        <Label text="2016-10-2 14:00" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-                        <Label text="联系电话：" GridPane.rowIndex="7" />
-                        <Label text="12345654321" GridPane.columnIndex="1" GridPane.rowIndex="7" />
-                        <Label text="退房时间：" GridPane.rowIndex="5" />
-                        <Label prefHeight="15.0" prefWidth="130.0" text="2016-10-3 12:00:00" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                        <Label text="特殊需求：" GridPane.rowIndex="8" />
-                        <Label text="尽量安排无烟房" GridPane.columnIndex="1" GridPane.rowIndex="8" />
-                        <Label text="房间数量：" GridPane.rowIndex="2" />
-                        <Label text="1     间" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label text="入住人姓名：" GridPane.rowIndex="1" />
+                        <Label text="张三" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label text="入住房型：" GridPane.rowIndex="2" />
+                        <Label text="大床房" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <Label text="预计入住人数：" GridPane.rowIndex="4" />
+                        <Label text="1     人" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <Label text="入住时间：" GridPane.rowIndex="6" />
+                        <Label prefHeight="15.0" prefWidth="163.0" text="2016-10-2 14:00:00" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                        <Label text="最晚执行时间：" GridPane.rowIndex="8" />
+                        <Label text="2016-10-2 14:00" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                        <Label text="联系电话：" GridPane.rowIndex="9" />
+                        <Label text="12345654321" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                        <Label text="退房时间：" GridPane.rowIndex="7" />
+                        <Label prefHeight="15.0" prefWidth="130.0" text="2016-10-3 12:00:00" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                        <Label text="特殊需求：" GridPane.rowIndex="10" />
+                        <Label text="尽量安排无烟房" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+                        <Label text="房间数量：" GridPane.rowIndex="3" />
+                        <Label text="1     间" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <Label prefHeight="50.0" prefWidth="72.0" text="订单价格：" GridPane.rowIndex="11" />
+                        <Label text="610" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+                        <Label prefHeight="15.0" prefWidth="159.0" text="订单编号：" />
+                        <Label text="123420161001" GridPane.columnIndex="1" />
+                        <Label text="订单生成时间：" GridPane.rowIndex="5" />
+                        <Label text="2016-10-1 19:00:00" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                      </children>
                   </GridPane>
                   <Button layoutX="152.0" layoutY="325.0" mnemonicParsing="false" text="返回" />
                   <Button layoutX="247.0" layoutY="325.0" mnemonicParsing="false" text="执行" />
-                  <Label layoutX="14.0" layoutY="362.0" prefHeight="15.0" prefWidth="159.0" text="订单编号：123456789" />
-                  <Label layoutX="335.0" layoutY="101.0" prefHeight="50.0" prefWidth="72.0" text="订单价格图片" />
-                  <Label alignment="CENTER" layoutX="22.0" layoutY="101.0" prefHeight="50.0" prefWidth="72.0" text="未执行（图）" />
+                  <Button layoutX="334.0" layoutY="89.0" mnemonicParsing="false" prefHeight="66.0" prefWidth="60.0" text="未执行" />
                </children>
             </AnchorPane>
          </items>
