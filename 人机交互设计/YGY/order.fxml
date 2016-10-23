@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<SplitPane dividerPositions="0.17558528428093645" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+         <children>
+            <Button layoutX="12.0" layoutY="128.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="酒店" />
+            <Button layoutX="12.0" layoutY="188.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="订单" />
+            <Button layoutX="12.0" layoutY="252.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="会员" />
+            <Button layoutX="12.0" layoutY="14.0" mnemonicParsing="false" prefHeight="73.0" prefWidth="78.0" text="客户（头像）" textAlignment="CENTER" />
+            <Label layoutX="36.0" layoutY="94.0" text="昵称" />
+            <Button layoutX="12.0" layoutY="315.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="信用" />
+         </children>
+      </AnchorPane>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="386.0" prefWidth="454.0">
+         <children>
+            <TabPane layoutY="64.0" prefHeight="273.0" prefWidth="490.0" tabClosingPolicy="UNAVAILABLE">
+               <tabs>
+                  <Tab text="所有订单">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ScrollPane hbarPolicy="NEVER" layoutY="-2.0" prefHeight="262.0" prefWidth="490.0" vbarPolicy="ALWAYS">
+                                 <content>
+                                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Pane prefHeight="118.0" prefWidth="475.0">
+                                             <children>
+                                                <Label layoutX="14.0" layoutY="14.0" text="酒店：" />
+                                                <Label layoutX="64.0" layoutY="14.0" text="新街口三里步汉庭" />
+                                                <Label layoutX="14.0" layoutY="66.0" text="最晚执行时间：" />
+                                                <Label layoutX="127.0" layoutY="39.0" />
+                                                <Label layoutX="162.0" layoutY="66.0" text="2016-10-2 14：00" />
+                                                <Label layoutX="14.0" layoutY="39.0" text="地址：" />
+                                                <Label layoutX="88.0" layoutY="39.0" />
+                                                <Label layoutX="315.0" layoutY="14.0" text="价格：" />
+                                                <Label layoutX="359.0" layoutY="14.0" text="610" />
+                                                <Label layoutX="64.0" layoutY="39.0" text="南京市玄武区新街口三里巷" />
+                                                <Button layoutX="359.0" layoutY="40.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="72.0" text="已执行" />
+                                                <Label layoutX="14.0" layoutY="88.0" text="离店时间：" />
+                                                <Label layoutX="162.0" layoutY="88.0" text="2016-10-2 14：00" />
+                                                <Line endX="100.0" layoutX="208.0" layoutY="121.0" startX="-100.0" />
+                                             </children>
+                                          </Pane>
+                                       </children>
+                                    </AnchorPane>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="未执行订单">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+                  <Tab text="已撤销订单">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+                  <Tab text="未评论订单">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+                  <Tab text="已评论订单">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+                  <Tab text="异常订单">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dedfe1" height="40.0" layoutX="21.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="427.0" />
+            <Label alignment="CENTER" layoutX="34.0" layoutY="21.0" prefHeight="27.0" prefWidth="95.0" text="订单列表">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+  </items>
+</SplitPane>
