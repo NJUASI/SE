@@ -109,7 +109,8 @@
                   </GridPane>
                   <Label layoutX="45.0" layoutY="243.0" text="特别要求：" />
                   <Label layoutX="121.0" layoutY="243.0" text="我有三个孩子不要窗户马桶盖" />
-                  <Button layoutX="386.0" layoutY="88.0" mnemonicParsing="false" text="撤销" />
+                  <Button layoutX="386.0" layoutY="88.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="71.0" text="撤销50%" />
+                  <Button layoutX="386.0" layoutY="55.0" mnemonicParsing="false" text="撤销100%" />
                </children>
             </Pane>
          </children>
