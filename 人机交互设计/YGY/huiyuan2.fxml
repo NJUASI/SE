@@ -17,70 +17,76 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<SplitPane dividerPositions="0.17558528428093645" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
-  <items>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
-         <children>
-            <Button layoutX="12.0" layoutY="136.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="酒店" />
-            <Button layoutX="12.0" layoutY="212.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="订单" />
-            <Button layoutX="12.0" layoutY="284.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="会员" />
-            <Label layoutX="36.0" layoutY="94.0" text="昵称" />
-            <Button layoutX="12.0" layoutY="355.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="信用" />
-            <ImageView fitHeight="96.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../图片.PNG" />
-               </image>
-            </ImageView>
-            <Label layoutX="15.0" layoutY="427.0" text="状态栏：" />
-         </children>
-      </AnchorPane>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
-         <children>
-            <TitledPane layoutX="33.0" layoutY="110.0" prefHeight="102.0" prefWidth="399.0" text="企业会员注册">
-               <content>
-                  <Pane prefHeight="110.0" prefWidth="397.0">
-                     <children>
-                        <Label layoutX="14.0" layoutY="14.0" text="企业名称：" />
-                        <Label layoutX="22.0" layoutY="111.0" />
-                        <Button layoutX="341.0" layoutY="35.0" mnemonicParsing="false" text="提交" />
-                        <TextField layoutX="44.0" layoutY="35.0" prefHeight="23.0" prefWidth="244.0" text="人寿保险公司" />
-                     </children>
-                  </Pane>
-               </content>
-            </TitledPane>
-            <TitledPane animated="false" layoutX="33.0" layoutY="257.0" prefHeight="96.0" prefWidth="399.0" text="个人会员注册">
-              <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="110.0" prefWidth="397.0">
-                     <children>
-                        <Pane prefHeight="40.0" prefWidth="55.0">
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.17558528428093645" layoutY="-8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Button layoutX="12.0" layoutY="136.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="酒店" />
+                  <Button layoutX="12.0" layoutY="212.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="订单" />
+                  <Button layoutX="12.0" layoutY="284.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="会员" />
+                  <Label layoutX="36.0" layoutY="94.0" text="昵称" />
+                  <Button layoutX="12.0" layoutY="355.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="78.0" text="信用" />
+                  <ImageView fitHeight="96.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../图片.PNG" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TitledPane layoutX="33.0" layoutY="110.0" prefHeight="102.0" prefWidth="399.0" text="企业会员注册">
+                     <content>
+                        <Pane prefHeight="110.0" prefWidth="397.0">
                            <children>
-                              <Label layoutX="14.0" layoutY="14.0" text="生日：" />
-                              <TextField layoutX="47.0" layoutY="30.0" prefHeight="23.0" prefWidth="71.0" />
-                              <TextField layoutX="165.0" layoutY="29.0" prefHeight="23.0" prefWidth="71.0" />
-                              <Label layoutX="134.0" layoutY="31.0" text="月">
+                              <Label layoutX="14.0" layoutY="14.0" text="企业名称：" />
+                              <Label layoutX="22.0" layoutY="111.0" />
+                              <Button layoutX="341.0" layoutY="35.0" mnemonicParsing="false" text="提交" />
+                              <TextField layoutX="44.0" layoutY="35.0" prefHeight="23.0" prefWidth="244.0" text="人寿保险公司" />
+                           </children>
+                        </Pane>
+                     </content>
+                  </TitledPane>
+                  <TitledPane animated="false" layoutX="36.0" layoutY="251.0" prefHeight="96.0" prefWidth="399.0" text="个人会员注册">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="110.0" prefWidth="397.0">
+                           <children>
+                              <Pane prefHeight="40.0" prefWidth="55.0">
+                                 <children>
+                                    <Label layoutX="14.0" layoutY="14.0" text="生日：" />
+                                    <TextField layoutX="47.0" layoutY="30.0" prefHeight="23.0" prefWidth="71.0" />
+                                    <TextField layoutX="165.0" layoutY="29.0" prefHeight="23.0" prefWidth="71.0" />
+                                    <Label layoutX="134.0" layoutY="31.0" text="月">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </Pane>
+                              <Button layoutX="343.0" layoutY="31.0" mnemonicParsing="false" text="提交" />
+                              <Label layoutX="252.0" layoutY="33.0" text="日">
                                  <font>
                                     <Font size="15.0" />
                                  </font>
                               </Label>
                            </children>
-                        </Pane>
-                        <Button layoutX="343.0" layoutY="31.0" mnemonicParsing="false" text="提交" />
-                        <Label layoutX="252.0" layoutY="33.0" text="日">
-                           <font>
-                              <Font size="15.0" />
-                           </font>
-                        </Label>
-                     </children>
-                  </AnchorPane>
-              </content>
-            </TitledPane>
-            <Button layoutX="213.0" layoutY="383.0" mnemonicParsing="false" text="取消" />
-            <Label layoutX="191.0" layoutY="21.0" text="会员注册">
-               <font>
-                  <Font size="22.0" />
-               </font>
-            </Label>
-            <Separator layoutY="80.0" prefHeight="4.0" prefWidth="490.0" />
-         </children></AnchorPane>
-  </items>
-</SplitPane>
+                        </AnchorPane>
+                     </content>
+                  </TitledPane>
+                  <Button layoutX="213.0" layoutY="383.0" mnemonicParsing="false" text="取消" />
+                  <Label layoutX="191.0" layoutY="21.0" text="会员注册">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutY="80.0" prefHeight="4.0" prefWidth="490.0" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+      <Label layoutX="10.0" layoutY="445.0" text="状态栏：" />
+   </children>
+</Pane>
