@@ -50,9 +50,9 @@
             <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" text="六合" GridPane.columnIndex="2" GridPane.rowIndex="3" />
          </children>
       </GridPane>
-      <Label layoutX="156.0" layoutY="139.0" text="输入商圈：" AnchorPane.bottomAnchor="301.0" AnchorPane.leftAnchor="156.0" AnchorPane.rightAnchor="384.0" AnchorPane.topAnchor="134.0" />
-      <TextField layoutX="220.0" layoutY="130.0" text="新街口" AnchorPane.bottomAnchor="297.0" AnchorPane.leftAnchor="217.0" AnchorPane.rightAnchor="222.0" AnchorPane.topAnchor="130.0" />
-      <Label layoutX="309.0" layoutY="167.0" text="热门商圈" AnchorPane.bottomAnchor="268.0" AnchorPane.leftAnchor="309.0" AnchorPane.rightAnchor="243.0" AnchorPane.topAnchor="167.0" />
+      <Label layoutX="180.0" layoutY="104.0" text="输入商圈：" AnchorPane.bottomAnchor="331.0" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="104.0" />
+      <TextField layoutX="253.0" layoutY="100.0" text="新街口" AnchorPane.bottomAnchor="327.0" AnchorPane.leftAnchor="253.0" AnchorPane.rightAnchor="186.0" AnchorPane.topAnchor="100.0" />
+      <Label layoutX="310.0" layoutY="161.0" text="热门商圈" AnchorPane.bottomAnchor="274.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="242.0" AnchorPane.topAnchor="161.0" />
       <Label layoutX="1.0" layoutY="434.0" text="状态栏" />
       <VBox layoutY="125.0" prefHeight="309.0" prefWidth="101.0" spacing="40.0" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="485.0" AnchorPane.topAnchor="134.0">
          <children>
@@ -67,5 +67,8 @@
             <Image url="@../图片.PNG" />
          </image>
       </ImageView>
+      <Separator layoutX="97.0" layoutY="79.0" prefHeight="3.0" prefWidth="502.0" />
+      <Button layoutX="438.0" layoutY="100.0" mnemonicParsing="false" text="确认" />
+      <Separator layoutX="134.0" layoutY="141.0" prefHeight="3.0" prefWidth="430.0" />
    </children>
 </AnchorPane>

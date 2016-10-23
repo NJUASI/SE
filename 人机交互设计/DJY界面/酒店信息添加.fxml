@@ -13,7 +13,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Separator layoutX="107.0" layoutY="63.0" orientation="VERTICAL" prefHeight="200.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="93.0" AnchorPane.rightAnchor="497.0" AnchorPane.topAnchor="1.0" />
@@ -32,7 +31,7 @@
             <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="酒店信息" />
          </children>
       </VBox>
-      <Label layoutX="244.0" layoutY="32.0" text="酒店信息添加" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="244.0" AnchorPane.rightAnchor="224.0" AnchorPane.topAnchor="22.0">
+      <Label layoutX="287.0" layoutY="20.0" text="酒店信息添加" AnchorPane.bottomAnchor="390.0" AnchorPane.leftAnchor="287.0" AnchorPane.rightAnchor="181.0" AnchorPane.topAnchor="20.0">
          <font>
             <Font size="22.0" />
          </font>
@@ -50,11 +49,12 @@
       <TextArea layoutX="195.0" layoutY="272.0" prefHeight="79.0" prefWidth="315.0" />
       <Label layoutX="372.0" layoutY="127.0" text="酒店编号：" />
       <TextField layoutX="431.0" layoutY="124.0" prefHeight="23.0" prefWidth="150.0" text="12345678" />
-      <HBox layoutX="504.0" layoutY="408.0" prefHeight="23.0" prefWidth="96.0" spacing="10.0">
+      <HBox layoutX="305.0" layoutY="381.0" prefHeight="23.0" prefWidth="96.0" spacing="10.0">
          <children>
             <Button mnemonicParsing="false" text="取消" />
             <Button mnemonicParsing="false" text="添加" />
          </children>
       </HBox>
+      <Separator layoutX="95.0" layoutY="78.0" prefHeight="3.0" prefWidth="506.0" />
    </children>
 </AnchorPane>

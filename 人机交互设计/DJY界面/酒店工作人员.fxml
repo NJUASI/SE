@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ScrollBar?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -11,7 +12,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
    <children>
@@ -34,40 +34,30 @@
                   <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="酒店信息" />
                </children>
             </VBox>
-            <Label layoutX="272.0" layoutY="23.0" text="用户添加" AnchorPane.bottomAnchor="387.0" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="236.0" AnchorPane.topAnchor="23.0">
+            <Label layoutX="303.0" layoutY="20.0" text="用户添加" AnchorPane.bottomAnchor="390.0" AnchorPane.leftAnchor="303.0" AnchorPane.rightAnchor="205.0" AnchorPane.topAnchor="20.0">
                <font>
                   <Font size="22.0" />
                </font>
             </Label>
-            <Pane layoutX="97.0" layoutY="80.0" prefHeight="316.0" prefWidth="503.0">
+            <Separator layoutX="96.0" layoutY="78.0" prefHeight="3.0" prefWidth="503.0" />
+            <Pane layoutX="96.0" layoutY="81.0" prefHeight="354.0" prefWidth="503.0">
                <children>
-                  <ScrollBar layoutX="489.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="316.0" prefWidth="14.0" />
-                  <Pane prefHeight="153.0" prefWidth="489.0">
+                  <Label layoutX="163.0" layoutY="55.0" text="姓名：" />
+                  <Label layoutX="163.0" layoutY="90.0" text="编号：" />
+                  <Label layoutX="163.0" layoutY="126.0" text="密码：" />
+                  <Label layoutX="162.0" layoutY="159.0" text="所属酒店：" />
+                  <TextField layoutX="206.0" layoutY="51.0" />
+                  <TextField layoutX="208.0" layoutY="86.0" />
+                  <TextField layoutX="210.0" layoutY="123.0" />
+                  <ChoiceBox layoutX="223.0" layoutY="155.0" prefWidth="150.0" />
+                  <HBox layoutX="198.0" layoutY="247.0" prefHeight="24.0" prefWidth="92.0" spacing="10.0">
                      <children>
-                        <Separator layoutX="1.0" layoutY="154.0" prefHeight="3.0" prefWidth="489.0" />
-                        <Label layoutX="14.0" layoutY="14.0" text="姓名：张三" />
-                        <Label layoutX="14.0" layoutY="49.0" text="编号：1234" />
-                        <Label layoutX="14.0" layoutY="85.0" text="密码：123456" />
-                        <Label layoutX="14.0" layoutY="118.0" text="所属酒店：金鹰酒店" />
+                        <Button mnemonicParsing="false" text="取消" />
+                        <Button mnemonicParsing="false" text="添加" />
                      </children>
-                  </Pane>
-                  <Pane layoutY="155.0" prefHeight="161.0" prefWidth="489.0">
-                     <children>
-                        <Separator layoutX="3.0" layoutY="160.0" prefHeight="3.0" prefWidth="489.0" />
-                        <Label layoutX="14.0" layoutY="14.0" text="姓名：王二" />
-                        <Label layoutX="14.0" layoutY="52.0" text="编号：1244" />
-                        <Label layoutX="14.0" layoutY="87.0" text="密码：123456" />
-                        <Label layoutX="14.0" layoutY="118.0" text="所属酒店：杏林酒店" />
-                     </children>
-                  </Pane>
+                  </HBox>
                </children>
             </Pane>
-            <HBox layoutX="503.0" layoutY="407.0" prefHeight="24.0" prefWidth="92.0" spacing="10.0">
-               <children>
-                  <Button mnemonicParsing="false" text="取消" />
-                  <Button mnemonicParsing="false" text="添加" />
-               </children>
-            </HBox>
          </children>
       </AnchorPane>
    </children>

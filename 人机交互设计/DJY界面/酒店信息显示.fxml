@@ -12,7 +12,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Separator layoutX="121.0" layoutY="39.0" orientation="VERTICAL" prefHeight="200.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="93.0" AnchorPane.rightAnchor="497.0" AnchorPane.topAnchor="1.0" />
@@ -32,50 +31,51 @@
             <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="90.0" text="酒店信息" />
          </children>
       </VBox>
-      <Label layoutX="272.0" layoutY="10.0" text="用户查询" AnchorPane.bottomAnchor="400.0" AnchorPane.leftAnchor="272.0" AnchorPane.rightAnchor="236.0" AnchorPane.topAnchor="10.0">
+      <Label layoutX="302.0" layoutY="7.0" text="酒店查询" AnchorPane.bottomAnchor="403.0" AnchorPane.leftAnchor="302.0" AnchorPane.rightAnchor="206.0" AnchorPane.topAnchor="7.0">
          <font>
             <Font size="22.0" />
          </font>
       </Label>
-      <TextField layoutX="156.0" layoutY="54.0" prefHeight="23.0" prefWidth="351.0" AnchorPane.bottomAnchor="373.0" AnchorPane.leftAnchor="156.0" AnchorPane.rightAnchor="93.0" AnchorPane.topAnchor="54.0" />
-      <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="157.0" layoutY="54.0">
+      <TextField layoutX="116.0" layoutY="54.0" prefHeight="23.0" prefWidth="351.0" AnchorPane.bottomAnchor="373.0" AnchorPane.leftAnchor="116.0" AnchorPane.rightAnchor="133.0" AnchorPane.topAnchor="54.0" />
+      <ImageView fitHeight="23.0" fitWidth="22.0" layoutX="117.0" layoutY="54.0">
          <image>
             <Image url="@../图片2.PNG" />
          </image>
       </ImageView>
-      <Button layoutX="523.0" layoutY="53.0" mnemonicParsing="false" text="查询" AnchorPane.bottomAnchor="374.0" AnchorPane.leftAnchor="523.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="53.0" />
+      <Button layoutX="479.0" layoutY="54.0" mnemonicParsing="false" text="查询" AnchorPane.bottomAnchor="373.0" AnchorPane.leftAnchor="479.0" AnchorPane.rightAnchor="81.0" AnchorPane.topAnchor="54.0" />
       <Pane layoutX="96.0" layoutY="119.0" prefHeight="316.0" prefWidth="503.0">
          <children>
             <ScrollBar layoutX="489.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="316.0" prefWidth="14.0" />
             <Pane prefHeight="153.0" prefWidth="489.0">
                <children>
-                  <Separator layoutX="1.0" layoutY="154.0" prefHeight="3.0" prefWidth="489.0" />
-                  <Label layoutX="14.0" layoutY="14.0" text="酒店名称：仙林酒店" />
-                  <Label layoutX="14.0" layoutY="40.0" text="酒店编号：123456" />
-                  <Label layoutX="14.0" layoutY="69.0" text="所属城市：南京" />
-                  <Label layoutX="14.0" layoutY="95.0" text="所属商圈：仙林" />
-                  <Label layoutX="14.0" layoutY="118.0" text="地址：南京市栖霞区仙隐南路1号" />
-                  <Label layoutX="152.0" layoutY="95.0" text="设施服务：独立卫浴，宽带" />
-                  <Label layoutX="152.0" layoutY="14.0" text="酒店星级：五星级" />
-                  <Label layoutX="152.0" layoutY="40.0" text="酒店评分：1000" />
-                  <Label layoutX="152.0" layoutY="69.0" text="酒店简介：你的家" />
+                  <Separator layoutX="1.0" layoutY="154.0" prefHeight="3.0" prefWidth="482.0" />
+                  <Label layoutX="103.0" layoutY="14.0" text="酒店名称：仙林酒店" />
+                  <Label layoutX="103.0" layoutY="40.0" text="酒店编号：12345678" />
+                  <Label layoutX="103.0" layoutY="69.0" text="所属城市：南京" />
+                  <Label layoutX="103.0" layoutY="95.0" text="所属商圈：仙林" />
+                  <Label layoutX="103.0" layoutY="118.0" text="地址：南京市栖霞区仙隐南路1号" />
+                  <Label layoutX="241.0" layoutY="95.0" text="设施服务：独立卫浴，宽带" />
+                  <Label layoutX="241.0" layoutY="14.0" text="酒店星级：五星级" />
+                  <Label layoutX="241.0" layoutY="40.0" text="酒店评分：1000" />
+                  <Label layoutX="241.0" layoutY="69.0" text="酒店简介：你的家" />
+                  <Separator layoutX="2.0" layoutY="-1.0" prefHeight="3.0" prefWidth="482.0" />
                </children>
             </Pane>
          </children>
       </Pane>
-      <Button layoutX="546.0" layoutY="91.0" mnemonicParsing="false" text="添加" />
+      <Button layoutX="546.0" layoutY="54.0" mnemonicParsing="false" text="添加" />
       <Pane layoutX="96.0" layoutY="277.0" prefHeight="153.0" prefWidth="482.0">
          <children>
             <Separator layoutX="1.0" layoutY="154.0" prefHeight="3.0" prefWidth="489.0" />
-            <Label layoutX="14.0" layoutY="14.0" text="酒店名称：金鹰酒店" />
-            <Label layoutX="14.0" layoutY="40.0" text="酒店编号：123756" />
-            <Label layoutX="14.0" layoutY="69.0" text="所属城市：南京" />
-            <Label layoutX="14.0" layoutY="95.0" text="所属商圈：仙林" />
-            <Label layoutX="14.0" layoutY="118.0" text="地址：南京市栖霞区仙隐南路1号" />
-            <Label layoutX="152.0" layoutY="95.0" text="设施服务：独立卫浴，宽带" />
-            <Label layoutX="152.0" layoutY="14.0" text="酒店星级：五星级" />
-            <Label layoutX="152.0" layoutY="40.0" text="酒店评分：2000" />
-            <Label layoutX="152.0" layoutY="69.0" text="酒店简介：你的家" />
+            <Label layoutX="101.0" layoutY="14.0" text="酒店名称：金鹰酒店" />
+            <Label layoutX="101.0" layoutY="40.0" text="酒店编号：12375644" />
+            <Label layoutX="101.0" layoutY="69.0" text="所属城市：南京" />
+            <Label layoutX="101.0" layoutY="95.0" text="所属商圈：仙林" />
+            <Label layoutX="101.0" layoutY="118.0" text="地址：南京市栖霞区仙隐南路65号" />
+            <Label layoutX="239.0" layoutY="95.0" text="设施服务：独立卫浴，宽带" />
+            <Label layoutX="239.0" layoutY="14.0" text="酒店星级：五星级" />
+            <Label layoutX="239.0" layoutY="40.0" text="酒店评分：2000" />
+            <Label layoutX="239.0" layoutY="69.0" text="酒店简介：你的家" />
          </children>
       </Pane>
    </children>

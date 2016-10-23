@@ -29,40 +29,40 @@
          </children>
       </VBox>
       <Label layoutY="435.0" text="状态栏" />
-      <Label layoutX="244.0" layoutY="48.0" text="促销策略查看" AnchorPane.bottomAnchor="362.0" AnchorPane.rightAnchor="224.0" AnchorPane.topAnchor="48.0">
+      <Label layoutX="282.0" layoutY="20.0" text="促销策略查看" AnchorPane.bottomAnchor="390.0" AnchorPane.rightAnchor="186.0" AnchorPane.topAnchor="20.0">
          <font>
             <Font size="22.0" />
          </font>
       </Label>
-      <Pane layoutX="97.0" layoutY="133.0" prefHeight="301.0" prefWidth="502.0">
+      <Pane layoutX="97.0" layoutY="82.0" prefHeight="352.0" prefWidth="519.0">
          <children>
-            <Separator layoutY="149.0" prefHeight="3.0" prefWidth="502.0" />
-            <Label layoutX="2.0" layoutY="5.0" text="VIP会员特定商圈专属折扣">
+            <Separator layoutX="5.0" layoutY="163.0" prefHeight="3.0" prefWidth="502.0" />
+            <Label layoutX="5.0" layoutY="14.0" text="VIP会员特定商圈专属折扣">
                <font>
-                  <Font size="15.0" />
+                  <Font size="16.0" />
                </font>
             </Label>
-            <Label layoutX="14.0" layoutY="32.0" text="开始时间：4月1号" />
-            <Label layoutX="14.0" layoutY="63.0" text="结束时间：9月1号" />
-            <Label layoutX="14.0" layoutY="95.0" text="折扣率：7折" />
-            <Label layoutX="14.0" layoutY="124.0" text="VIP：是" />
-            <Label layoutX="190.0" layoutY="32.0" text="所属城市：南京" />
-            <Label layoutX="190.0" layoutY="63.0" text="所属商圈：新街口" />
-            <Button layoutX="442.0" layoutY="120.0" mnemonicParsing="false" text="修改" />
-            <Label layoutX="3.0" layoutY="152.0" text="双十一活动折扣">
+            <Label layoutX="14.0" layoutY="48.0" text="开始时间：4月1号" />
+            <Label layoutX="14.0" layoutY="79.0" text="结束时间：9月1号" />
+            <Label layoutX="14.0" layoutY="111.0" text="折扣率：7折" />
+            <Label layoutX="190.0" layoutY="111.0" text="VIP：是" />
+            <Label layoutX="190.0" layoutY="48.0" text="所属城市：南京" />
+            <Label layoutX="190.0" layoutY="79.0" text="所属商圈：新街口" />
+            <Button layoutX="424.0" layoutY="126.0" mnemonicParsing="false" text="修改" />
+            <Label layoutX="5.0" layoutY="185.0" text="双十一活动折扣">
                <font>
-                  <Font size="15.0" />
+                  <Font size="16.0" />
                </font>
             </Label>
-            <Label layoutX="14.0" layoutY="189.0" text="开始时间：11月11号" />
-            <Label layoutX="14.0" layoutY="222.0" text="结束时间：11月20号" />
-            <Label layoutX="14.0" layoutY="252.0" text="折扣率：8折" />
-            <Label layoutX="14.0" layoutY="280.0" text="VIP：否" />
-            <Label layoutX="190.0" layoutY="193.0" text="所属城市：全国所有城市" />
-            <Label layoutX="190.0" layoutY="222.0" text="所属商圈：全国所有商圈" />
-            <Button layoutX="444.0" layoutY="269.0" mnemonicParsing="false" text="修改" />
+            <Label layoutX="14.0" layoutY="214.0" text="开始时间：11月11号" />
+            <Label layoutX="14.0" layoutY="247.0" text="结束时间：11月20号" />
+            <Label layoutX="14.0" layoutY="277.0" text="折扣率：8折" />
+            <Label layoutX="190.0" layoutY="277.0" text="VIP：否" />
+            <Label layoutX="190.0" layoutY="218.0" text="所属城市：全国所有城市" />
+            <Label layoutX="190.0" layoutY="247.0" text="所属商圈：全国所有商圈" />
+            <Button layoutX="424.0" layoutY="292.0" mnemonicParsing="false" text="修改" />
          </children>
       </Pane>
-      <Separator layoutX="96.0" layoutY="131.0" prefHeight="3.0" prefWidth="502.0" />
+      <Separator layoutX="97.0" layoutY="72.0" prefHeight="15.0" prefWidth="502.0" />
    </children>
 </AnchorPane>
