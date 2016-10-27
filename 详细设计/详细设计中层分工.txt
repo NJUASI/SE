@@ -1,7 +1,7 @@
-高源：credit
+﻿高源：credit	logIn、market、
 
 龚尘淼：hotel、promotion 
 
 董金玉：user、member
 
-冯俊杰：logIn、market、order
+冯俊杰：order
