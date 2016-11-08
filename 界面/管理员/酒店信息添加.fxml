@@ -36,7 +36,7 @@
             <Label layoutX="480.0" layoutY="127.0" text="酒店星级：" />
             <ChoiceBox layoutX="553.0" layoutY="123.0" prefWidth="150.0" />
             <Label layoutX="229.0" layoutY="321.0" text="详细地址：" />
-            <HBox layoutX="400.0" layoutY="478.0" prefHeight="23.0" prefWidth="96.0" spacing="10.0">
+            <HBox layoutX="397.0" layoutY="478.0" prefHeight="30.0" prefWidth="113.0" spacing="10.0">
                <children>
                   <Button mnemonicParsing="false" text="取消" />
                   <Button mnemonicParsing="false" text="添加" />
